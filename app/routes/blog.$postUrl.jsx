@@ -18,6 +18,7 @@ export function meta({data}) {
 
 
 export async function loader({params}) {
+  // fyfytfuytfyut
     const { postUrl } = params
     const post = await getPost(postUrl)
     if(post.data.length === 0) {
